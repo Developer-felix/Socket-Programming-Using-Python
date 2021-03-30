@@ -13,7 +13,9 @@ print("Waiting for conections")
 while True:
     c, addr = s.accept()
 
-    print("Connected with",addr)
+    name = c.recv(1024).decode()
+
+    print("Connected with",addr,name)
 
     c.send(bytes("Welcome to codewithfelix","utf-8"))
 

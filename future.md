@@ -1,0 +1,1 @@
+go to cmd use ipconfig to get the ip address of your computer and connect to different computers making server client chat system
